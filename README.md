@@ -6,9 +6,13 @@ This is a [Drupal via DDEV](https://github.com/drud/ddev) template configured fo
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dharizza/gitpod-starter)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/SergioEspinozaC/Lab03)
 
 ## Get Started With Your Own Project
+
+## Group names
+Alejandro Pacheco Vargas - C05769
+Sergio José Espinoza Carvajal - B92760
 
 ### A new project
 
