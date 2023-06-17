@@ -1,0 +1,34 @@
+uuid: 8392279e-c2b2-4daa-9041-188931cda05f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_left
+    - paragraphs.paragraphs_type.contenido_en_dos_columnas
+    - paragraphs.paragraphs_type.title_text_cta
+  module:
+    - entity_reference_revisions
+id: paragraph.contenido_en_dos_columnas.field_left
+field_name: field_left
+entity_type: paragraph
+bundle: contenido_en_dos_columnas
+label: left
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      title_text_cta: title_text_cta
+    negate: 0
+    target_bundles_drag_drop:
+      contenido_en_dos_columnas:
+        weight: 3
+        enabled: false
+      title_text_cta:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

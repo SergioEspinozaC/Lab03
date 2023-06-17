@@ -1,0 +1,82 @@
+uuid: 5d202744-2bcc-4a3d-8e53-bacfa6e4c423
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.contenido_en_dos_columnas.field_left
+    - field.field.paragraph.contenido_en_dos_columnas.field_right
+    - paragraphs.paragraphs_type.contenido_en_dos_columnas
+  module:
+    - entity_reference_revisions
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: 'contenido en dos columnas'
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          1d37c9b8-04d6-4efd-af17-88f48d3e0858:
+            uuid: 1d37c9b8-04d6-4efd-af17-88f48d3e0858
+            region: first
+            configuration:
+              id: 'field_block:paragraph:contenido_en_dos_columnas:field_right'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: ''
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          e6d3fe9c-27b8-43f7-b601-8ed7826729df:
+            uuid: e6d3fe9c-27b8-43f7-b601-8ed7826729df
+            region: second
+            configuration:
+              id: 'field_block:paragraph:contenido_en_dos_columnas:field_left'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: ''
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: paragraph.contenido_en_dos_columnas.default
+targetEntityType: paragraph
+bundle: contenido_en_dos_columnas
+mode: default
+content:
+  field_left:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_right:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
