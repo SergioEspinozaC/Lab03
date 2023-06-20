@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(7, 58, 105);
+    color: rgb(255, 255, 255);
+    padding: 40px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.card__content {
+    width: 60%;
+    align-self: center;
+}
+  
+.card__title{
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+.card__text{
+    color: rgb(255, 255, 255);
+}
+
+.card__cta{
+    width: 40%;
+    align-self: center;
+}

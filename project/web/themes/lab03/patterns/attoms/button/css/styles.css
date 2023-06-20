@@ -1,9 +1,24 @@
 .btn{
     border: 2px solid rgb(255, 255, 255);
-    background-color: rgb(12, 131, 18);
     color: rgb(255, 255, 255);
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
     text-decoration:none;
+    background-color: rgb(7, 58, 105);
+}
+
+.btn--link{
+    background-color: white;
+    color: gray;
+}
+
+.btn--link:hover{
+    color: gray;
+    border: none;
+    text-decoration: underline;
+}
+
+i{
+  padding-left: 15px;
 }

@@ -7,6 +7,7 @@ core_version_requirement: ^10
 libraries:
   - lab03/global
   - lab03/lab03-layout
+  - lab03/font-awesome
 regions:
   header: 'Header'
   primary_menu: 'Primary menu'

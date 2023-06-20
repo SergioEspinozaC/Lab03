@@ -1,0 +1,31 @@
+title_text_cta:
+  label: 'Title, text, CTA'
+  description: 'Component with title, text and CTA.'
+  fields:
+    title:
+      type: string
+      label: Title
+      description: Title of the card.
+      preview: '¿SABIAS QUE...?'
+    text: 
+      type: string
+      label: Text
+      description: Text of the card.
+      preview: 'Para poder ejercer y realizar sus tareas y funciones como notaria o notario público, debe mantener actualizados sus datos, tales como teléfonos direcciones y correo electrónico'
+    cta: 
+      type: mixed
+      label: CTA
+      description: Call of action
+      preview: '<a href="#" class="btn">¿Cómo actualizar mis datos?<i class="fa fa-caret-right" aria-hidden="true"></i></a>'
+  libraries:
+    -
+      button:
+        css:
+          component:
+            css/styles.css: {}
+
+      title_text_cta:
+        css:
+          component:
+            css/styles.css: {}
+      
