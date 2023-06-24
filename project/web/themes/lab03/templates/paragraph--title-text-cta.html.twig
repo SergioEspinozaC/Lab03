@@ -49,7 +49,12 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ content }}
+      {{ pattern('title_text_cta',{
+        title: 'Drupal',
+        text: 'Hola, esto es una prueba',
+        cta: paragraph.field_link
+      }) }},
+
     {% endblock %}
   </div>
 {% endblock paragraph %}
