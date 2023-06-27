@@ -49,11 +49,10 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ pattern('title_text_cta',{
-        title: content.field_title,
-        text: content.field_text,
-        cta: content.field_cta
-      }, paragraph.field_color.0.value) }},
+       {{ pattern('two_column', {
+        left: content.field_left,
+        right: content.field_right
+      }) }},
 
     {% endblock %}
   </div>

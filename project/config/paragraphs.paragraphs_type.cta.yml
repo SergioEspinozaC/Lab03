@@ -1,9 +1,9 @@
-uuid: c820565e-9864-4907-8668-e94ad4dc2411
+uuid: fe06a666-d492-4450-8a74-4b88bbcd09c4
 langcode: en
 status: true
 dependencies: {  }
-id: contenido_en_dos_columnas
-label: 'Layout 2 columns'
+id: cta
+label: CTA
 icon_uuid: null
 icon_default: null
 description: ''

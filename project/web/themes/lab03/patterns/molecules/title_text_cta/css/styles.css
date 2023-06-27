@@ -1,16 +1,23 @@
 .card{
     display: flex;
     border: 2px solid rgb(255, 255, 255);
-    background-color: rgb(7, 58, 105);
-    color: rgb(255, 255, 255);
     padding: 40px 40px;
     font-size: 16px;
+   
     cursor: pointer;
     text-decoration:none;
 }
 
+.card--blue{
+    background-color: #154d61;
+}
+
+.card--orange{
+    background-color: #C44B12;
+}
+
 .card__content {
-    width: 60%;
+    width: 50%;
     align-self: center;
 }
   
@@ -24,6 +31,7 @@
 }
 
 .card__cta{
-    width: 40%;
+    width: 50%;
     align-self: center;
+    padding-left: 4em;
 }

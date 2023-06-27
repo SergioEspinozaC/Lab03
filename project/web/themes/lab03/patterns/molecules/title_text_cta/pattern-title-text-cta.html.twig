@@ -1,14 +1,15 @@
-<div class="card">
-  <div class="cardcontent">
-    <h5 class="cardtitle">{{ title }}</h5>
-    <p class="cardtext">{{ text }}</p>
+<div class="card card--{{ variant }}">
+  <div class="card__content">
+  {% if title %}
+    <h5 class="card__title">{{ title }}</h5>
+  {% endif %}
+  {% if text %}
+    <p class="card__text">{{ text }}</p>
+  {% endif %}
   </div>
 
-  <div class="cardcta">
-    <div>{{ pattern('button',{
-        text: 'click here',
-        url: '/node'
-    }) }}</div>
-  </div>
+  {% if cta %}
+    <div class="card__cta">{{ cta }}</div>
+  {% endif %}
 </div>
 

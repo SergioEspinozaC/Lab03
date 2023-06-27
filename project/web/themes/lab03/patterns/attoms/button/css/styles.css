@@ -5,17 +5,20 @@
     font-size: 16px;
     cursor: pointer;
     text-decoration:none;
-    background-color: rgb(7, 58, 105);
+    background-color: transparent;
 }
 
-.btn--link{
-    background-color: white;
-    color: gray;
+.card--blue .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: #154d61;
+    border: #154d61;
+    text-decoration: underline;
 }
 
-.btn--link:hover{
-    color: gray;
-    border: none;
+.card--orange .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: #C44B12;
+    border: #C44B12;
     text-decoration: underline;
 }
 

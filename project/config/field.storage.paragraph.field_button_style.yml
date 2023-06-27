@@ -1,22 +1,22 @@
-uuid: 37fe4a1e-2751-4e8c-9901-ca969385c78d
+uuid: 8e546405-17b3-44ea-b4b4-17f7ab5b59e9
 langcode: en
 status: true
 dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_color
-field_name: field_color
+id: paragraph.field_button_style
+field_name: field_button_style
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: orange
-      label: 'Orange background'
+      value: link
+      label: 'Link button'
     -
-      value: blue
-      label: 'Blue background'
+      value: outlined
+      label: 'Outlined button'
   allowed_values_function: ''
 module: options
 locked: false

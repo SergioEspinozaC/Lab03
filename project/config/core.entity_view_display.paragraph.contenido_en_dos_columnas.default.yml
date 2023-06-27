@@ -26,15 +26,17 @@ third_party_settings:
             region: first
             configuration:
               id: 'field_block:paragraph:contenido_en_dos_columnas:field_right'
+              label: right
               label_display: '0'
+              provider: layout_builder
               context_mapping:
                 entity: layout_builder.entity
+                view_mode: view_mode
               formatter:
                 type: entity_reference_revisions_entity_view
-                label: above
+                label: hidden
                 settings:
                   view_mode: default
-                  link: ''
                 third_party_settings: {  }
             weight: 0
             additional: {  }
@@ -43,15 +45,17 @@ third_party_settings:
             region: second
             configuration:
               id: 'field_block:paragraph:contenido_en_dos_columnas:field_left'
+              label: left
               label_display: '0'
+              provider: layout_builder
               context_mapping:
                 entity: layout_builder.entity
+                view_mode: view_mode
               formatter:
                 type: entity_reference_revisions_entity_view
-                label: above
+                label: hidden
                 settings:
                   view_mode: default
-                  link: ''
                 third_party_settings: {  }
             weight: 0
             additional: {  }

@@ -1,19 +1,21 @@
-uuid: 03759929-050e-459f-bf43-c2bc5d9121ab
+uuid: 7bc2aafc-f28a-4dfd-b08b-5f573b6af034
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_color
     - paragraphs.paragraphs_type.title_text_cta
+  module:
+    - options
 id: paragraph.title_text_cta.field_color
 field_name: field_color
 entity_type: paragraph
 bundle: title_text_cta
-label: color
+label: Color
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: list_string

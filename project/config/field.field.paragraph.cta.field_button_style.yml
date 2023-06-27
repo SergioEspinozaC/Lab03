@@ -1,0 +1,21 @@
+uuid: ad73232f-635c-4466-99e1-330250f4f897
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button_style
+    - paragraphs.paragraphs_type.cta
+  module:
+    - options
+id: paragraph.cta.field_button_style
+field_name: field_button_style
+entity_type: paragraph
+bundle: cta
+label: 'Button Style'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

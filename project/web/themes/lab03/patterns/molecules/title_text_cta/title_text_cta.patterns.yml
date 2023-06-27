@@ -1,6 +1,11 @@
 title_text_cta:
   label: 'Title, text, CTA'
   description: 'Component with title, text and CTA.'
+  variants:
+    orange:
+      label: Orange background
+    blue:
+      label: Blue background
   fields:
     title:
       type: string
@@ -16,7 +21,7 @@ title_text_cta:
       type: mixed
       label: CTA
       description: Call of action
-      preview: '<a href="#" class="btn">¿Cómo actualizar mis datos?<i class="fa fa-caret-right" aria-hidden="true"></i></a>'
+      preview: <a href="#" class="btn">Click here</a>
   libraries:
     -
       button:
